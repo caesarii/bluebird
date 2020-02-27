@@ -1195,6 +1195,11 @@ is-buffer@^1.1.0:
   resolved "http://npm-registry.qunhequnhe.com/is-buffer/download/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha1-76ouqdqg16suoTqXsritUf776L4=
 
+is-wsl@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
+  integrity sha1-HxbkqiKwTRM2tmGIpmrzxgDDpm0=
+
 isarray@0.0.1, isarray@~0.0.1:
   version "0.0.1"
   resolved "http://npm-registry.qunhequnhe.com/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
@@ -1764,10 +1769,12 @@ once@1.x, once@^1.3.0:
   dependencies:
     wrappy "1"
 
-open@~0.0.5:
-  version "0.0.5"
-  resolved "http://npm-registry.qunhequnhe.com/open/download/open-0.0.5.tgz#42c3e18ec95466b6bf0dc42f3a2945c3f0cad8fc"
-  integrity sha1-QsPhjslUZra/DcQvOilFw/DK2Pw=
+open@~6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/open/-/open-6.0.0.tgz#cae5e2c1a3a1bfaee0d0acc8c4b7609374750346"
+  integrity sha512-/yb5mVZBz7mHLySMiSj2DcLtMBbFPJk5JBKEkHVZFxZAPzeg3L026O0T+lbdz1B2nyDnkClRSwRQJdeVUIF7zw==
+  dependencies:
+    is-wsl "^1.1.0"
 
 optimist@^0.6.1, optimist@~0.6.1:
   version "0.6.1"
